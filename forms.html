@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        FORMS
+    </title>
+
+    </head>
+     <body>
+         
+             <form>
+                 <div>
+                     Name :
+                    <input type="text" placeholder="Enter Name">
+                 </div>
+                 <br>
+                 <input type="radio" value="1" name="gender"> Male   <br>  <!--value inside " " is dependent on user -->
+                 <input type="radio" value="2" name="gender"> Female <br>
+                 <input type="radio" value="3" name="gender"> Others <br>
+                 <div>
+                    colour :
+                   <input type="color">
+                </div>
+                <br>
+                <div>
+                    date :
+                  <input type="date">
+               </div>
+               <br>
+               country :
+               <select <!--size="2"-->>
+                <optgroup label="rich">
+                <option value="1">INDIA</option><!--under value " " here u can enter any this it's basically stores in database which denotes written text between >  <-->
+                <option value="2">FRANCE</option>
+                <option value="3" selected>AMERICA</option>
+              </optgroup>
+                <optgroup label="poor">
+                <option value="4">PAKISTAN</option>
+                <option value="5">CHINA</option>
+                <option value="6">ITALLY</option>
+                <option value="7">BANGLADESH</option>
+              </optgroup>
+            </select>
+               <div>
+                Email :
+              <input type="email" autofocus>
+           </div>
+
+           <br>
+           <div>
+            Hidden :
+          <input type="hidden" value="delhi">
+       </div>
+       <br>
+       <div>
+        NUMBER :
+      <input type="number">
+   </div>
+   <br>
+   <div>
+   Password :
+  <input type="password" required>
+</div>
+<br>
+<div>
+    Reset :
+  <input type="reset">
+</div>
+<br>
+<div>
+   Time :
+  <input type="time">
+</div>
+<br>
+<div>
+  URL :
+  <input type="url">
+</div>
+<br>
+<div>
+Range :
+  <input type="range" min="500" max="100000">
+</div>
+<br>
+<div>
+  <input type="file" multiple>
+</div>
+<br>
+<textarea row="20" cols="50" placeholder="Enter description"></textarea >
+
+    <div>
+        <input type="submit" value="submit forms">
+    </div>
+             </form>
+    </body>
+</html>    
+             
